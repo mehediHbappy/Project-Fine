@@ -1,1 +1,1 @@
-# Project-Fine
+Razibur Rahman sir a teacher form creative it has given a task to the best of us of (batch iaw2303) to create a website where we can store informatin of student assignment fine. It was like a fun coding competition. And guess what our teacher liked my website most. He declare me as winner, so much so he also posted this site on his github account.
