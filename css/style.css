@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#ebeef1;
+}
+/* font-family: 'Black Ops One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto Slab', serif; */
+h3{
+    background-color: transparent;
+}
+.container{
+    padding: 40px 70px;
+}
+.head{
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif; 
+    color: #00a037;
+    position: relative;
+    margin-bottom:10px;
+
+}
+.underline{
+    position: absolute;
+    width: 200px;
+    
+    left:47%;
+    top: 40%;
+    background-color: transparent;
+    
+}
+.underline img{
+    height: 30px;
+    background-color: transparent;
+
+}
+
+.head-plate{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-family: 'Roboto Slab', serif; 
+    color: #00a037;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.plate-line{
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #00a0384c;
+    bottom: 0;
+    left: 0;
+}
+.serial-plate{
+    width: 5%;
+    
+}
+.serial-plate h3{
+    margin-left: 35px;
+    opacity: 0.4;
+}
+
+.name-plate{
+    width: 20%;
+    opacity: 0.4;
+    text-align: center;
+}
+.fine-plate{
+    width: 30%;
+    opacity: 0.4;
+    text-align: center;
+}
+.total-plate{
+    opacity: 0.4;
+    color:#00a037;
+}
+.main-item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.serial-no{
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+    height: 40px;
+    width: 5%;
+    line-height: 50px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius:50px;
+    background-color:#ebeef1;
+    color: #00a037;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+               -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    
+}
+.serial-no:hover{
+    box-shadow:inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+               inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70); 
+   
+            }
+.name{
+font-size: large;
+font-family: 'Roboto Slab', serif;
+height: 40px;
+width: 30%;
+padding: 20px;
+cursor: pointer;
+border: none;
+border-radius:50px;
+background-color:#ebeef1;
+color: #00a037;
+line-height: 40px;
+text-align: center;
+box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+            -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+           
+}
+
+.name:hover{
+    box-shadow:inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+               inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70); 
+   
+            }
+.tk{
+    font-family: 'Roboto Slab', serif;
+    height: 40px;
+    width: 5%;
+    background-color: blue;
+    line-height: 50px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius:50px;
+    background-color:#ebeef1;
+    color: #00a037;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    
+}
+
+.tk:hover{
+    box-shadow:inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+               inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70); 
+   
+            }
+.tk:last-child{
+    box-shadow:inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+               inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70); 
+    color:#ed0000;
+}
+.tk:last-child:hover{
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                -10px -10px 10px -1px rgba(255, 255, 255, 0.70); 
+}
+
+
+.last-line{
+    background-color: #00a037;
+    height: 4px;
+    width: 30%;
+    opacity: 0.4;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.total-text{
+    text-align: end;
+}
+
+.total-text h3{
+color: #00a037;
+display: inline-block;
+padding: 5px 30px;
+font-family: 'Roboto Slab', serif; */
+}
+
+
+@media (max-width:600px){
+    .tk{
+        display: none;
+    }
+    .tk:last-child{
+        display: block;
+        font-size: 15px;
+
+    }
+    .fine-plate{
+        display: none;
+    }
+    .name-plate{
+        margin-left: 50px;
+}
+    .name{
+        width: 50%;
+        font-size: 12px;
+        font-weight: 900;
+
+    }
+}
+
+@media (max-width:800px){
+    .tk{
+        display: none;
+    }
+    .tk:last-child{
+        display: block;
+        font-size: 16px;
+
+    }
+    .fine-plate{
+        display: none;
+    }
+    .name-plate{
+        margin-left: 50px;
+}
+    .name{
+        width: 50%;
+        font-size: 14px;
+        font-weight: 900;
+
+    }
+
+}
